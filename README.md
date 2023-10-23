@@ -31,9 +31,9 @@ This is a proposed plan only, you don’t have to follow it day-by-day.
 
 ### Day 1 (18 October, Wednesday)
 
-* [ ] Check the first 20 mins of [Nana’s Docker tutorial](https://www.youtube.com/watch?v=pg19Z8LL06w):
+* [x] Check the first 20 mins of [Nana’s Docker tutorial](https://www.youtube.com/watch?v=pg19Z8LL06w):
 * [x] Install Docker Desktop  from https://docs.docker.com/engine/install/
-* [ ] Suggestion: Run `docker start` in your terminal. Note: The requirements for running this command successfully differentiate on each OS.
+* [x] Suggestion: Run `docker start` in your terminal. Note: The requirements for running this command successfully differentiate on each OS.
 * [ ] Read the Introduction of Docker Documentation: https://docker-curriculum.com/
 * [x] Create a GitHub repository.
 * [ ] Share your progress in Slack and on social media.
@@ -47,94 +47,94 @@ Found good materials? Create a PR with links!
 
 ### Day 2 (19 October, Thursday)
 
-* Pull a basic image and test some basic commands of Docker command line: [Docker commands in the command line](https://medium.com/edureka/docker-commands-29f7551498a8)
-* Create your own `hello world` Dockerfile, create an image from it and run a container: [ Hello world with Docker](https://www.knowledgehut.com/blog/devops/basic-docker-commands), [Hello world with Docker](https://www.codewithjason.com/docker-hello-world-app/)
-* Learn basic Docker commands and test them arround with the dockerfile: https://docs.docker.com/engine/reference/builder/
-* Push your changes to GitHub.
-* Share your progress in Slack and on social media.
+- [ ] Pull a basic image and test some basic commands of Docker command line: [Docker commands in the command line](https://medium.com/edureka/docker-commands-29f7551498a8)
+- [ ] Create your own `hello world` Dockerfile, create an image from it and run a container: [ Hello world with Docker](https://www.knowledgehut.com/blog/devops/basic-docker-commands), [Hello world with Docker](https://www.codewithjason.com/docker-hello-world-app/)
+- [ ] Learn basic Docker commands and test them arround with the dockerfile: https://docs.docker.com/engine/reference/builder/
+- [ ] Push your changes to GitHub.
+- [ ] Share your progress in Slack and on social media.
 
 Suggested material:
 
-* 🗒️ [20 Essential Docker commands](https://www.mygreatlearning.com/blog/top-essential-docker-commands/)
+- [ ] 🗒️ [20 Essential Docker commands](https://www.mygreatlearning.com/blog/top-essential-docker-commands/)
 
 Found good materials? Create a PR with links!
 
 ### Day 3 (20 October, Friday)
 
-* Choose a project on your own, you can create a simple prediction model or an analysis. Choose a dataset from this link: [list of some datasets](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_7_project/datasets.md)
-* Create a script that prints information about this dataset. (for exampe df.describe) or that makes a prediction.
-* Create a Dockerfile with a light python image that prints the same result after running the container.
-* Push your changes to GitHub.
-* Share your progress in Slack and on social media.
+- [ ] Choose a project on your own, you can create a simple prediction model or an analysis. Choose a dataset from this link: [list of some datasets](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_7_project/datasets.md)
+- [ ] Create a script that prints information about this dataset. (for exampe df.describe) or that makes a prediction.
+- [ ] Create a Dockerfile with a light python image that prints the same result after running the container.
+- [ ] Push your changes to GitHub.
+- [ ] Share your progress in Slack and on social media.
 
 Suggested material:
 
-* 📺 [Docker Tutorial For Beginners](https://www.youtube.com/watch?v=bi0cKgmRuiA)
-* 🗒️ [Build Docker application with python example](https://www.programonaut.com/build-a-docker-application-with-python-example/)
-* 🗒️ [Python Dockerfile tutorial](https://luis-sena.medium.com/creating-the-perfect-python-dockerfile-51bdec41f1c8)
+- [ ] 📺 [Docker Tutorial For Beginners](https://www.youtube.com/watch?v=bi0cKgmRuiA)
+- [ ] 🗒️ [Build Docker application with python example](https://www.programonaut.com/build-a-docker-application-with-python-example/)
+- [ ] 🗒️ [Python Dockerfile tutorial](https://luis-sena.medium.com/creating-the-perfect-python-dockerfile-51bdec41f1c8)
 
 Found good materials? Create a PR with links!
 
 ### Day 4 (21 October, Saturday)
 
-* Create an API for your project. It can be a simple get reques with a simple message or a post request for your model prediciton. If you dont have much time to prepare your own API in python check these examples and the required commands from this repo: [prediction_service.py](https://github.com/AntonisCSt/Docker_POW/blob/main/simple_FastAPI_prediction/prediction_service.py)
-* You can also create a frontend server with streamlit.
-* Push your changes to GitHub.
-* Share your progress in Slack and on social media.
+- [ ] Create an API for your project. It can be a simple get reques with a simple message or a post request for your model prediciton. If you dont have much time to prepare your own API in python check these examples and the required commands from this repo: [prediction_service.py](https://github.com/AntonisCSt/Docker_POW/blob/main/simple_FastAPI_prediction/prediction_service.py)
+- [ ] You can also create a frontend server with streamlit.
+- [ ] Push your changes to GitHub.
+- [ ] Share your progress in Slack and on social media.
 
 Suggested material:
 
-* 📺 [FastAPI link 1](https://www.youtube.com/watch?v=0RS9W8MtZe4)
-* 📺 [FastAPI link 2](https://www.youtube.com/watch?v=i3RMlrx4ol4)
-* 📺 [Flask](https://www.youtube.com/watch?v=i3RMlrx4ol4)
-* 📺 [Streamlit](https://www.youtube.com/watch?v=-IM3531b1XU&t=0s)
+- [ ] 📺 [FastAPI link 1](https://www.youtube.com/watch?v=0RS9W8MtZe4)
+- [ ] 📺 [FastAPI link 2](https://www.youtube.com/watch?v=i3RMlrx4ol4)
+- [ ] 📺 [Flask](https://www.youtube.com/watch?v=i3RMlrx4ol4)
+- [ ] 📺 [Streamlit](https://www.youtube.com/watch?v=-IM3531b1XU&t=0s)
 
 Found good materials? Create a PR with links!
 
 ### Day 5 (22 October, Sunday)
 
-* Create a Dockerfile that contains commands to run the API. Use a light python image as a base. See the suggestions below depending on the tool you used yesterday.
-* Run the container and test your API endpoint. (make sure you have exposed the port of the container).
-* Push your changes to GitHub.
-* Share your progress in Slack and on social media.
+- [ ] Create a Dockerfile that contains commands to run the API. Use a light python image as a base. See the suggestions below depending on the tool you used yesterday.
+- [ ] Run the container and test your API endpoint. (make sure you have exposed the port of the container).
+- [ ] Push your changes to GitHub.
+- [ ] Share your progress in Slack and on social media.
 
 Suggested material:
 
-* 🗒️ [Streamlit](https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker)
-* 🗒️ [FastAPI link 1](https://fastapi.tiangolo.com/deployment/docker/)
-* 🗒️ [FastAPI link 2](https://www.youtube.com/watch?v=iqrS7Q174Ac)
-* 🗒️ [Flask](https://www.freecodecamp.org/news/how-to-dockerize-a-flask-app/)
+- [ ] 🗒️ [Streamlit](https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker)
+- [ ] 🗒️ [FastAPI link 1](https://fastapi.tiangolo.com/deployment/docker/)
+- [ ] 🗒️ [FastAPI link 2](https://www.youtube.com/watch?v=iqrS7Q174Ac)
+- [ ] 🗒️ [Flask](https://www.freecodecamp.org/news/how-to-dockerize-a-flask-app/)
 
 Found good materials? Create a PR with links!
 
 ### Day 6 (23 October, Monday)
 
-* Finish building your image.
-* Test if it is an API the endpoint using python library request. Check this example: https://github.com/AntonisCSt/Docker_POW/blob/main/simple_FastAPI_prediction/send_data.py
-* Publish your Docker Image to DockerHub.
-* Push your changes to GitHub.
-* Share your progress in Slack and on social media
+- [ ] Finish building your image.
+- [ ] Test if it is an API the endpoint using python library request. Check this example: https://github.com/AntonisCSt/Docker_POW/blob/main/simple_FastAPI_prediction/send_data.py
+- [ ] Publish your Docker Image to DockerHub.
+- [ ] Push your changes to GitHub.
+- [ ] Share your progress in Slack and on social media
 
 Suggested material:
 
-* 🗒️ [How to publish your image to dockerhub](https://www.geeksforgeeks.org/docker-publishing-images-to-docker-hub/)
-* 🗒️ [Sharing your app| Docker official docs](https://docs.docker.com/get-started/04_sharing_app/)
+- [ ] 🗒️ [How to publish your image to dockerhub](https://www.geeksforgeeks.org/docker-publishing-images-to-docker-hub/)
+- [ ] 🗒️ [Sharing your app| Docker official docs](https://docs.docker.com/get-started/04_sharing_app/)
 
 Found good materials? Create a PR with links!
 
 ### Day 7 (24 October, Tuesday)
 
-* Continue exploring more about this topic.
-* Bonus: Configure CI/CD on your project.
-* Push your changes to GitHub.
-* Share your progress in Slack and on social media.
-* Give us feedback.
-* Add the link to your project to this project of the week GitHub page.
+- [ ] Continue exploring more about this topic.
+- [ ] Bonus: Configure CI/CD on your project.
+- [ ] Push your changes to GitHub.
+- [ ] Share your progress in Slack and on social media.
+- [ ] Give us feedback.
+- [ ] Add the link to your project to this project of the week GitHub page.
 
 Suggested material:
 
-* 🗒️ [Docker official](https://docs.docker.com/language/java/configure-ci-cd/)
-* 🗒️ [CI/CD with github actions](https://medium.com/rockedscience/docker-ci-cd-pipeline-with-github-actions-6d4cd1731030)
+- [ ] 🗒️ [Docker official](https://docs.docker.com/language/java/configure-ci-cd/)
+- [ ] 🗒️ [CI/CD with github actions](https://medium.com/rockedscience/docker-ci-cd-pipeline-with-github-actions-6d4cd1731030)
 Found good materials? Create a PR with links!
 
 ## Projects
