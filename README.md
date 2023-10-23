@@ -1,5 +1,15 @@
 # Project of the Week 2023-10-18
 
+Tweaking this to coincide with midterms, so the planned dates are folded into the week for midterms.
+
+* **Personal Goal**: Learn Docker and its fundamentals. By the end of the ~~week~~ project's duration, you will have created containers for
+  1. a developer box for replicating my setup in whichever OS I have access to; as a backup for aged hardware
+  1. the midterm project for #mlzoomcamp course 
+* **Dates**: from 18th October to 13th November. (extended for Midterms due date)
+* **Where:** 
+  1. upstream [https://]()
+  2. origin (this repo) [https://]()
+
 ## DIY Docker part 1
 
 * **Goal**:Learn Docker and its fundamentals. By the end of the week, you will have  the knowledge and skills to create docker images and run containers.
